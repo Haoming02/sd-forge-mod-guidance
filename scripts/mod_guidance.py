@@ -119,7 +119,7 @@ class ModulationGuidanceForForge(scripts.ScriptBuiltinUI):
         self._prev_clip: torch.nn.Module = None
 
     def title(self):
-        return "Modulation Guidance Integrated"
+        return "Modulation Guidance"
 
     def show(self, is_img2img):
         return scripts.AlwaysVisible
